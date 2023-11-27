@@ -1,5 +1,7 @@
 package com.example;
 
+import org.junit.runner.RunWith;
+
 import java.util.List;
 
 public class Feline extends Animal implements Predator {
@@ -21,5 +23,6 @@ public class Feline extends Animal implements Predator {
     public int getKittens(int kittensCount) {
         return kittensCount;
     }
+
 
 }
