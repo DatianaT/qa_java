@@ -1,5 +1,7 @@
 package com.example;
 
+import org.junit.runner.RunWith;
+
 import java.util.List;
 
 public class Feline extends Animal implements Predator {
@@ -22,4 +24,8 @@ public class Feline extends Animal implements Predator {
         return kittensCount;
     }
 
+    public boolean isDomesticated(String animalKind) {
+        // является ли вид домашним
+        return animalKind.equals("Домашняя кошка");
+    }
 }

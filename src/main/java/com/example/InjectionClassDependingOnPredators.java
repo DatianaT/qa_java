@@ -1,3 +1,5 @@
+package com.example;
+
 import com.example.Feline;
 
 import java.util.List;
