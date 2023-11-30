@@ -4,11 +4,8 @@ import java.util.List;
 public class Lion {
     private final Feline feline;
     public boolean hasMane;
-    private final String sex;
-
 
     public Lion(String sex, Feline feline) throws Exception {
-        this.sex = sex;
         this.feline = feline;
 
         if ("Самец".equals(sex)) {
@@ -30,5 +27,6 @@ public class Lion {
     public List<String> getFood() throws Exception {
         return feline.getFood("Хищник");
     }
+
 
 }
