@@ -21,7 +21,7 @@ public class CatTest {
 
 
     @Test
-    public void testGetSound() throws Exception {
+    public void testGetSound(){
         assertEquals("Мяу", cat.getSound());
     }
     @Test
