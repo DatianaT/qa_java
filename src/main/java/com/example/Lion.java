@@ -6,7 +6,6 @@ public class Lion {
     public boolean hasMane;
     private final String sex;
 
-
     public Lion(String sex, Feline feline) throws Exception {
         this.sex = sex;
         this.feline = feline;
@@ -30,5 +29,6 @@ public class Lion {
     public List<String> getFood() throws Exception {
         return feline.getFood("Хищник");
     }
+
 
 }

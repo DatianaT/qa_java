@@ -1,5 +1,14 @@
+<<<<<<< HEAD
 com/example/Feline.class
 com/example/Predator.class
 com/example/Animal.class
 com/example/Cat.class
 com/example/Lion.class
+=======
+com/example/InjectionClassDependingOnPredators.class
+com/example/Animal.class
+com/example/Cat.class
+com/example/Lion.class
+com/example/Feline.class
+com/example/Predator.class
+>>>>>>> 4164c90a8460e0093c6d1ec2e91a92b3739fad96

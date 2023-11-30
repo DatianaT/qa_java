@@ -32,16 +32,15 @@ public class FelineTest {
         int expectedResult = feline.getKittens(numberOfKittens);
         assertEquals(numberOfKittens, expectedResult);
     }
-
     @Test
     public void testGetFamily() {
         Feline feline = new Feline();
         assertEquals("Кошачьи", feline.getFamily());
     }
-
     @Test
     public void testEatMeat() throws Exception {
         Feline feline = new Feline();
         assertEquals(List.of("Животные", "Птицы", "Рыба"), feline.eatMeat());
     }
+
 }

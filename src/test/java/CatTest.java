@@ -6,6 +6,7 @@ import org.junit.runner.RunWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.Mockito;
+
 import org.mockito.junit.MockitoJUnitRunner;
 import java.util.List;
 import static org.junit.Assert.assertEquals;
@@ -21,7 +22,9 @@ public class CatTest {
 
 
     @Test
-    public void testGetSound(){
+
+    public void testGetSound() throws Exception {
+
         assertEquals("Мяу", cat.getSound());
     }
     @Test

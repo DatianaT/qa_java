@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="LionTest" time="0.027" tests="7" errors="0" skipped="0" failures="0">
+=======
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="LionTest" time="0.017" tests="3" errors="0" skipped="0" failures="0">
+>>>>>>> 4164c90a8460e0093c6d1ec2e91a92b3739fad96
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -7,7 +11,11 @@
     <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
+<<<<<<< HEAD
     <property name="java.class.path" value="/Users/tatanadudnik/qa_java/target/test-classes:/Users/tatanadudnik/qa_java/target/classes:/Users/tatanadudnik/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/Users/tatanadudnik/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/tatanadudnik/.m2/repository/org/mockito/mockito-core/3.12.4/mockito-core-3.12.4.jar:/Users/tatanadudnik/.m2/repository/net/bytebuddy/byte-buddy/1.11.13/byte-buddy-1.11.13.jar:/Users/tatanadudnik/.m2/repository/org/objenesis/objenesis/3.2/objenesis-3.2.jar:/Users/tatanadudnik/.m2/repository/net/bytebuddy/byte-buddy-agent/1.11.16/byte-buddy-agent-1.11.16.jar:/Users/tatanadudnik/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.0/junit-jupiter-params-5.10.0.jar:/Users/tatanadudnik/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.0/junit-jupiter-api-5.10.0.jar:/Users/tatanadudnik/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/tatanadudnik/.m2/repository/org/junit/platform/junit-platform-commons/1.10.0/junit-platform-commons-1.10.0.jar:/Users/tatanadudnik/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:"/>
+=======
+    <property name="java.class.path" value="/Users/tatanadudnik/qa_java/target/test-classes:/Users/tatanadudnik/qa_java/target/classes:/Users/tatanadudnik/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.1/junit-jupiter-api-5.10.1.jar:/Users/tatanadudnik/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/tatanadudnik/.m2/repository/org/junit/platform/junit-platform-commons/1.10.1/junit-platform-commons-1.10.1.jar:/Users/tatanadudnik/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/tatanadudnik/.m2/repository/org/mockito/mockito-core/3.12.4/mockito-core-3.12.4.jar:/Users/tatanadudnik/.m2/repository/net/bytebuddy/byte-buddy/1.11.13/byte-buddy-1.11.13.jar:/Users/tatanadudnik/.m2/repository/org/objenesis/objenesis/3.2/objenesis-3.2.jar:/Users/tatanadudnik/.m2/repository/net/bytebuddy/byte-buddy-agent/1.11.16/byte-buddy-agent-1.11.16.jar:/Users/tatanadudnik/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/Users/tatanadudnik/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/tatanadudnik/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.0/junit-jupiter-params-5.10.0.jar:"/>
+>>>>>>> 4164c90a8460e0093c6d1ec2e91a92b3739fad96
     <property name="https.proxyPort" value="8889"/>
     <property name="java.vm.vendor" value="Amazon.com Inc."/>
     <property name="sun.arch.data.model" value="64"/>
@@ -18,9 +26,15 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/lib"/>
+<<<<<<< HEAD
     <property name="sun.java.command" value="/Users/tatanadudnik/qa_java/target/surefire/surefirebooter-20231130135303807_3.jar /Users/tatanadudnik/qa_java/target/surefire 2023-11-30T13-53-03_665-jvmRun1 surefire-20231130135303807_1tmp surefire_0-20231130135303807_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/tatanadudnik/qa_java/target/test-classes:/Users/tatanadudnik/qa_java/target/classes:/Users/tatanadudnik/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/Users/tatanadudnik/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/tatanadudnik/.m2/repository/org/mockito/mockito-core/3.12.4/mockito-core-3.12.4.jar:/Users/tatanadudnik/.m2/repository/net/bytebuddy/byte-buddy/1.11.13/byte-buddy-1.11.13.jar:/Users/tatanadudnik/.m2/repository/org/objenesis/objenesis/3.2/objenesis-3.2.jar:/Users/tatanadudnik/.m2/repository/net/bytebuddy/byte-buddy-agent/1.11.16/byte-buddy-agent-1.11.16.jar:/Users/tatanadudnik/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.0/junit-jupiter-params-5.10.0.jar:/Users/tatanadudnik/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.0/junit-jupiter-api-5.10.0.jar:/Users/tatanadudnik/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/tatanadudnik/.m2/repository/org/junit/platform/junit-platform-commons/1.10.0/junit-platform-commons-1.10.0.jar:/Users/tatanadudnik/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:"/>
+=======
+    <property name="sun.java.command" value="/Users/tatanadudnik/qa_java/target/surefire/surefirebooter-20231124225829282_3.jar /Users/tatanadudnik/qa_java/target/surefire 2023-11-24T22-58-29_111-jvmRun1 surefire-20231124225829282_1tmp surefire_0-20231124225829282_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/tatanadudnik/qa_java/target/test-classes:/Users/tatanadudnik/qa_java/target/classes:/Users/tatanadudnik/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.1/junit-jupiter-api-5.10.1.jar:/Users/tatanadudnik/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/tatanadudnik/.m2/repository/org/junit/platform/junit-platform-commons/1.10.1/junit-platform-commons-1.10.1.jar:/Users/tatanadudnik/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/tatanadudnik/.m2/repository/org/mockito/mockito-core/3.12.4/mockito-core-3.12.4.jar:/Users/tatanadudnik/.m2/repository/net/bytebuddy/byte-buddy/1.11.13/byte-buddy-1.11.13.jar:/Users/tatanadudnik/.m2/repository/org/objenesis/objenesis/3.2/objenesis-3.2.jar:/Users/tatanadudnik/.m2/repository/net/bytebuddy/byte-buddy-agent/1.11.16/byte-buddy-agent-1.11.16.jar:/Users/tatanadudnik/.m2/repository/junit/junit/4.13.1/junit-4.13.1.jar:/Users/tatanadudnik/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/tatanadudnik/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.0/junit-jupiter-params-5.10.0.jar:"/>
+>>>>>>> 4164c90a8460e0093c6d1ec2e91a92b3739fad96
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/tatanadudnik"/>
     <property name="user.language" value="ru"/>
@@ -35,7 +49,11 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+<<<<<<< HEAD
     <property name="surefire.real.class.path" value="/Users/tatanadudnik/qa_java/target/surefire/surefirebooter-20231130135303807_3.jar"/>
+=======
+    <property name="surefire.real.class.path" value="/Users/tatanadudnik/qa_java/target/surefire/surefirebooter-20231124225829282_3.jar"/>
+>>>>>>> 4164c90a8460e0093c6d1ec2e91a92b3739fad96
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.20.1+9-LTS"/>
     <property name="user.name" value="tatanadudnik"/>
@@ -63,6 +81,7 @@
     <property name="java.class.version" value="55.0"/>
     <property name="http.proxyPort" value="8889"/>
   </properties>
+<<<<<<< HEAD
   <testcase name="testHasManeFemale" classname="LionTest" time="0.004"/>
   <testcase name="testDoesHaveMane" classname="LionTest" time="0.001"/>
   <testcase name="testGetKittensLion" classname="LionTest" time="0.002"/>
@@ -70,4 +89,9 @@
   <testcase name="testHasManeMessage" classname="LionTest" time="0.002"/>
   <testcase name="testGetKittensLionFemale" classname="LionTest" time="0.002"/>
   <testcase name="testGetFoodForFeline" classname="LionTest" time="0.001"/>
+=======
+  <testcase name="testHasManeMale" classname="LionTest" time="0.007"/>
+  <testcase name="testHasManeFemale" classname="LionTest" time="0.002"/>
+  <testcase name="testHasManeMessage" classname="LionTest" time="0.004"/>
+>>>>>>> 4164c90a8460e0093c6d1ec2e91a92b3739fad96
 </testsuite>

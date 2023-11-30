@@ -1,3 +1,4 @@
+
 import com.example.Animal;
 import com.example.Feline;
 import com.example.Lion;
@@ -64,7 +65,6 @@ public class LionTest {
         List<String> foodList = lion.getFood();
         assertEquals(List.of("Животные", "Птицы", "Рыба"), foodList);
     }
-
 
 }
 
