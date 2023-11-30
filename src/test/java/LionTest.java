@@ -35,14 +35,14 @@ public class LionTest {
         assertEquals(9, actualResult);
     }
     @Test
-    public void testHasManeMale() throws Exception {
+    public void testDoesHaveMane() throws Exception {
         Lion lion = new Lion("Самец", feline);
-        assertTrue(lion.hasMane);
+        assertTrue(lion.doesHaveMane());
     }
     @Test
     public void testHasManeFemale() throws Exception {
         Lion lion = new Lion("Самка", new Feline());
-        assertFalse(lion.hasMane);
+        assertFalse(lion.doesHaveMane());
     }
     @Test
     public void testHasManeMessage(){
@@ -61,11 +61,12 @@ public class LionTest {
     }
     @Test
     public void testGetFood() throws Exception {
-        Animal animal = new Animal();
-        String animalKind = "Травоядное";
-
-        assertEquals(List.of("Трава", "Различные растения"), animal.getFood(animalKind));
+        Lion lion = new Lion("Самец", feline);
+        Mockito.when(feline.getFood("Хищник")).thenReturn(List.of("Животные", "Птицы", "Рыба"));
+        List<String> foodList = lion.getFood();
+        assertEquals(List.of("Животные", "Птицы", "Рыба"), foodList);
     }
+
 
 }
 

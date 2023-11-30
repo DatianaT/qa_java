@@ -1,7 +1,5 @@
 package com.example;
 
-import org.junit.runner.RunWith;
-
 import java.util.List;
 
 public class Feline extends Animal implements Predator {
