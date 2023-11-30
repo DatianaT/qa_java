@@ -16,8 +16,6 @@ import static org.junit.Assert.assertFalse;
 
 @RunWith(MockitoJUnitRunner.class)
 public class LionTest {
-    public boolean hasMane;
-    private String sex;
     @Mock
     Feline feline;
     @Test
