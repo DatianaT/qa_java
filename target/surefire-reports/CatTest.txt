@@ -1,4 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: CatTest
 -------------------------------------------------------------------------------
+<<<<<<< HEAD
 Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.046 s - in CatTest
+=======
+<<<<<<< HEAD
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.970 s -- in CatTest
+=======
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.053 s -- in CatTest
+>>>>>>> 4164c90a8460e0093c6d1ec2e91a92b3739fad96
+>>>>>>> 80dd3bfa6645fa6dcb3283df93ebeb448e5ea9ff

@@ -1,4 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: FelineTest
 -------------------------------------------------------------------------------
+<<<<<<< HEAD
 Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 s - in FelineTest
+=======
+<<<<<<< HEAD
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.023 s -- in FelineTest
+=======
+Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.052 s -- in FelineTest
+>>>>>>> 4164c90a8460e0093c6d1ec2e91a92b3739fad96
+>>>>>>> 80dd3bfa6645fa6dcb3283df93ebeb448e5ea9ff

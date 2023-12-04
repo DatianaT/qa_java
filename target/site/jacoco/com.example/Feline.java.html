@@ -1,16 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="ru"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Feline.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">untitled</a> &gt; <a href="index.source.html" class="el_package">com.example</a> &gt; <span class="el_source">Feline.java</span></div><h1>Feline.java</h1><pre class="source lang-java linenums">package com.example;
+<<<<<<< HEAD
+=======
+
+<<<<<<< HEAD
+import java.util.List;
+
+<span class="fc" id="L5">public class Feline extends Animal implements Predator {</span>
+
+    @Override
+    public List&lt;String&gt; eatMeat() throws Exception {
+<span class="fc" id="L9">        return getFood(&quot;Хищник&quot;);</span>
+=======
+import org.junit.runner.RunWith;
+
+>>>>>>> 80dd3bfa6645fa6dcb3283df93ebeb448e5ea9ff
 import java.util.List;
 
 <span class="fc" id="L4">public class Feline extends Animal implements Predator {</span>
 
     @Override
     public List&lt;String&gt; eatMeat() throws Exception {
+<<<<<<< HEAD
 <span class="fc" id="L8">        return getFood(&quot;Хищник&quot;);</span>
+=======
+<span class="fc" id="L11">        return getFood(&quot;Хищник&quot;);</span>
+>>>>>>> 4164c90a8460e0093c6d1ec2e91a92b3739fad96
+>>>>>>> 80dd3bfa6645fa6dcb3283df93ebeb448e5ea9ff
     }
 
     @Override
     public String getFamily() {
+<<<<<<< HEAD
 <span class="fc" id="L13">        return &quot;Кошачьи&quot;;</span>
+=======
+<<<<<<< HEAD
+<span class="fc" id="L14">        return &quot;Кошачьи&quot;;</span>
+    }
+
+    public int getKittens() {
+<span class="nc" id="L18">        return getKittens(1);</span>
+    }
+
+    public int getKittens(int kittensCount) {
+<span class="fc" id="L22">        return kittensCount;</span>
+    }
+
+
+=======
+<span class="fc" id="L16">        return &quot;Кошачьи&quot;;</span>
+>>>>>>> 80dd3bfa6645fa6dcb3283df93ebeb448e5ea9ff
     }
 
     public int getKittens() {
@@ -21,5 +59,13 @@ import java.util.List;
 <span class="fc" id="L21">        return kittensCount;</span>
     }
 
+<<<<<<< HEAD
+=======
+    public boolean isDomesticated(String animalKind) {
+        // является ли вид домашним
+<span class="fc" id="L29">        return animalKind.equals(&quot;Домашняя кошка&quot;);</span>
+    }
+>>>>>>> 4164c90a8460e0093c6d1ec2e91a92b3739fad96
+>>>>>>> 80dd3bfa6645fa6dcb3283df93ebeb448e5ea9ff
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.7.202105040129</span></div></body></html>
