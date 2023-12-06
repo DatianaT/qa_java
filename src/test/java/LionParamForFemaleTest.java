@@ -1,7 +1,6 @@
 import com.example.Feline;
 import com.example.Lion;
 import org.junit.Test;
-
 import static org.junit.Assert.*;
 
 public class LionParamForFemaleTest {
@@ -13,6 +12,8 @@ public class LionParamForFemaleTest {
     {
         Lion lion = new Lion(sex, feline);
         boolean hasMane = lion.doesHaveMane();
-        assertEquals(false, hasMane);
+        assertFalse(hasMane);
     }
+
+
 }
